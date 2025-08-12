@@ -1,9 +1,10 @@
 # Online_Book_Store_Analysis_SQL**
-Schema**
+ SCHEMA
 <img width="939" height="616" alt="image" src="https://github.com/user-attachments/assets/9a0b79ea-2155-4dfc-a614-f0ad4aeb28eb" />
 
 
-#** QUERIES**
+ QUERIES
+ 
 create database book_store;
 use book_store;
 
