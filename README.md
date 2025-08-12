@@ -1,5 +1,9 @@
-# Online_Book_Store_Analysis_SQL
+# Online_Book_Store_Analysis_SQL**
+Schema**
+<img width="939" height="616" alt="image" src="https://github.com/user-attachments/assets/9a0b79ea-2155-4dfc-a614-f0ad4aeb28eb" />
 
+
+#** QUERIES**
 create database book_store;
 use book_store;
 
@@ -95,6 +99,7 @@ select * from books  order by price asc limit 1 ;
 select sum(total_amount) as revenue from orders;
 
 #-----------------ADVANCED QUERIES------------------
+
 #1) Retrieve the total number of books sold for each genre
 
 select b.genre,sum(o.quantity) as total_book_sold 
